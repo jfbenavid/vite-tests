@@ -1,0 +1,31 @@
+{
+  "name": "webapptest",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --open --config webpack.dev.js --mode development",
+    "start": "vite --mode production",
+    "build": "vite build --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "html-webpack-plugin": "^5.6.0",
+    "my-lib": "file:/Users/fabianbenavides/Projects/mylib/my-lib-0.0.3.tgz",
+    "ts-loader": "^9.5.1",
+    "vite": "^5.2.11",
+    "vite-plugin-handlebars": "^2.0.0",
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
